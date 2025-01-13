@@ -8,11 +8,10 @@ package main;
  *
  * @author carke
  */
-public class Potencia {
+public class Division {
 
-    public int CalculaPotencia(int base, int exponente){
-        int total = base;
-        total = (int) Math.pow(base, exponente);
-        return total;
+    public static int dividir(int a, int b) {
+        return (a / b);
     }
+    
 }
