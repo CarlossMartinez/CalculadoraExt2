@@ -11,8 +11,10 @@ package main;
 public class Potencia {
 
     public int CalculaPotencia(int base, int exponente){
-        int total = base;
-        total = (int) Math.pow(base, exponente);
+        int total = 1;
+        for(int i = 0; i < exponente; i++){
+            total = base *base;
+        }    
         return total;
     }
 }
